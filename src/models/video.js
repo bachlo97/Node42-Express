@@ -1,14 +1,6 @@
 import _sequelize from 'sequelize';
 const { Model, Sequelize } = _sequelize;
 
-
-
-// khai báo thêm những thuộc tính cho đối tượng
-// Tham số 1: định nghĩa các thuộc tính  tương ứng vs column trong table
-// Tham số 2: kết nối model vs table (kết nối datable)
-
-
-
 export default class video extends Model {
   static init(sequelize, DataTypes) {
   return super.init({
